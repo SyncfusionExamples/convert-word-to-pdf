@@ -10,7 +10,7 @@ namespace WordToPDF
         static void Main(string[] args)
         {
             //Get the path of existing Word document
-            string fullpath = @"...\..\DocToPDF.docx";
+            string fullpath = @"../../DocToPDF.docx";
 
             //Loads an existing Word document
             WordDocument wordDocument = new WordDocument(fullpath, FormatType.Docx);
